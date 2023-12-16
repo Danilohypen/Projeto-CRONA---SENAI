@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.imagemheader{
+    display: flex;
+    /* width: 1000px;
+    height: 600px; */
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+body{
+    height: 100vh;
+    background-color: #33303E;
+}
+
+.container-destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container-imagens{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-titulo{
+    background-color: #403482;
+    color: #20F1CC;
+    width: 19%;
+    text-align: center;
+    padding: 1% 0;
+    border-radius: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.texto-card{
+    background-color: #403482;
+    color: #20F1CC;
+    width: 80%;
+    text-align: center;
+    padding: 1% 0;
+    border-radius: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
